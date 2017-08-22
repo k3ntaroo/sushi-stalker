@@ -5,11 +5,7 @@ document.addEventListener('DOMContentLoaded', e => {
     const fish = document.getElementById('fish');
     const sushi = document.getElementById('sushi');
 
-    [rice, fish, sushi].forEach(o => {
-        wrapper.appendChild(o);
-    });
-
-    const config = { // TODO: find a better parameter
+    const config = {
         fps: 25,
         inertia: 0.98,
         riceAccelCoeff: 3,
